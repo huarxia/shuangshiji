@@ -132,7 +132,7 @@ theme: anisina
 deploy:
   type: git
   repo: https://github.com/liubiao0810/shuangshiji.git
-  branch: dev
+  branch: master
 
 
 # img CDN path
