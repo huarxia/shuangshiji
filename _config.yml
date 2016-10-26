@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 雙什記 # your blog title name
+title: 雙食記 # your blog title name
 subtitle:  
 author: 花夏 # 作者
 language: 
@@ -11,11 +11,11 @@ timezone:
 body: 暫無任何內容喲~~
 # custom Site settings
 # more detail check out docs
-SEOTitle: 雙什記 
+SEOTitle: 雙食記 
 header-img: http://ofn48b2kv.bkt.clouddn.com/%E5%A4%95%E9%99%BD.jpg
 email: liubiao@itoxs.com
-description: "雙什記-我的菜谱"
-keyword: 雙什記-我的菜谱 # seo key words
+description: "雙食記-我的菜谱"
+keyword: 雙食記-我的菜谱 # seo key words
 
 favicon: http://odflit039.bkt.clouddn.com/favicon.ico
 # custom end
