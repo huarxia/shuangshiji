@@ -8,14 +8,14 @@ subtitle:
 author: 花夏 # 作者
 language: 
 timezone: 
-
+body: 暫無任何內容喲~~
 # custom Site settings
 # more detail check out docs
 SEOTitle: 雙什記 
-header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
+header-img: http://ofn48b2kv.bkt.clouddn.com/%E5%A4%95%E9%99%BD.jpg
 email: liubiao@itoxs.com
 description: "雙什記-我的菜谱"
-keyword: # seo key words
+keyword: 雙什記-我的菜谱 # seo key words
 
 favicon: http://odflit039.bkt.clouddn.com/favicon.ico
 # custom end
@@ -57,8 +57,8 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: # 个人描述
-sidebar-avatar:     # use absolute URL
+sidebar-about-description: 簡單方見真功夫 # 个人描述
+sidebar-avatar: http://ofn48b2kv.bkt.clouddn.com/%E8%8A%B1%E5%A4%8F.jpg   # use absolute URL
 
 
 # Featured Tags
@@ -124,18 +124,19 @@ markdown:
     - markdown-it-emoji
 
 ## Themes: https://hexo.io/themes/
-theme: Anisina
+theme: anisina
+# theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
+  type: git
+  repo: https://github.com/liubiao0810/shuangshiji.git
+  branch: dev
 
 
 # img CDN path
-cdn-url:  # 你的CDN地址
+cdn-url: http://ofn48b2kv.bkt.clouddn.com/ # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
@@ -144,13 +145,16 @@ clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
 clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
-post-default-img: #博文默认的图片
+post-default-img: http://ofn48b2kv.bkt.clouddn.com/57123e296f574.jpg #博文默认的图片
 post-default-img-mobile: #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key: 
-
-
+# swiftype_key: 
+#menu
+menu:
+    家常菜: /homecook/index.html
+    湯: /soup/index.html
+    關於我: /about/index.html
 # archive page title 
 archive:
     title: archives
