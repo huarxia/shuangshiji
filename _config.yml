@@ -129,10 +129,10 @@ theme: anisina
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/liubiao0810/shuangshiji.git
-  branch: gh-pages
+# deploy:
+#   type: git
+#   repo: https://github.com/liubiao0810/shuangshiji.git
+#   branch: gh-pages
 
 
 # img CDN path
