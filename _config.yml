@@ -152,8 +152,8 @@ post-default-img-mobile: #移动端显示的图片
 # swiftype_key: 
 #menu
 menu:
-  家常菜: "categories/家常菜"
-  湯: "categories/湯"
+  家常菜: "categories/家常菜/"
+  湯: "categories/湯/"
   about: /about
 # archive page title 
 archive:
