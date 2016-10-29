@@ -22,8 +22,8 @@ favicon: http://odflit039.bkt.clouddn.com/favicon.ico
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://menu.huar.love
-root: /
+url: http://s.huar.love
+root: /shuangshiji
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -152,10 +152,10 @@ post-default-img-mobile: #移动端显示的图片
 # swiftype_key: 
 #menu
 menu:
-    家常菜: /homecook/index.html
-    湯: /soup/index.html
-    關於我: /about/index.html
+  家常菜: "categories/家常菜"
+  湯: "categories/湯"
+  about: /about
 # archive page title 
 archive:
-    title: archives
-    description: 可以根据归档日期检索所有文件
+  title: archives
+  description: 可以根据归档日期检索所有文件
