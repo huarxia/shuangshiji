@@ -12,7 +12,7 @@ body: 暫無任何內容喲~~
 # custom Site settings
 # more detail check out docs
 SEOTitle: 雙食記 
-header-img: http://ofn48b2kv.bkt.clouddn.com/%E5%A4%95%E9%99%BD.jpg
+header-img: http://ofn48b2kv.bkt.clouddn.com/C931A861-39CA-4C17-9710-1F03EA779D3D.png
 email: liubiao@itoxs.com
 description: "雙食記-我的菜谱"
 keyword: 雙食記-我的菜谱 # seo key words
@@ -129,10 +129,10 @@ theme: anisina
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo: https://github.com/liubiao0810/shuangshiji.git
-#   branch: gh-pages
+deploy:
+  type: git
+  repo: https://github.com/liubiao0810/shuangshiji.git
+  branch: gh-pages
 
 
 # img CDN path
