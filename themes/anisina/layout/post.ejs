@@ -18,12 +18,12 @@ layout: layout
 <style>
     <% if (page["cdn"] === 'header-off'){%>
     header.intro-header {
-        background-image: url('<%= page["header-img"] || config["header-img"]%>');
+        background-image: url('<%= page["header-img"] || config["post-default-img"]%>');
     }
 
     <%} else {%>
     header.intro-header {
-        background-image: url('<%- page["header-img"]?config["cdn-url"]+page["header-img"]+config["clip-content"] : config["header-img"]%>')
+        background-image: url('<%- page["header-img"]?config["cdn-url"]+page["header-img"]+config["clip-content"] : config["post-default-img"]%>')
     }
 
     <% } %>
