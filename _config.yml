@@ -131,7 +131,7 @@ theme: anisina
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/liubiao0810/shuangshiji.git
+  repo: https://github.com/huarxia/shuangshiji.git
   branch: gh-pages
 
 
